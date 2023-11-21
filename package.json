@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "node-red" : {
+  "node-red": {
     "nodes": {
-      "image-analyzer" : "./nodes/image-analyzer.js"
+      "image-analyzer": "./nodes/image-analyzer.js"
     }
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start" : "node index.js",
+    "test" : "echo \"Error: no test specified\" && exit 1",
+    "reload" : "./scripts/install.sh"
   }
 }
