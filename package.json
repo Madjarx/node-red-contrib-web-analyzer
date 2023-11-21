@@ -1,0 +1,11 @@
+{
+  "name": "node-red-contrib-web-content-analyzer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "node-red" : {
+    "nodes": {
+      "image-analyzer" : "./nodes/image-analyzer.js"
+    }
+  }
+}
